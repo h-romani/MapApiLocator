@@ -1,0 +1,60 @@
+
+body{
+    border: 0;  
+    padding: 15px; 
+    background-color: rgba(221, 221, 221, 0.199);
+    font-family: 'Helvetica'; 
+}
+
+
+#map{
+    height: 65vh; 
+    width: 65%;
+    top: 25px; 
+    float:  right;
+    position: relative; 
+    border: 1.5px solid rgb(77, 77, 77);
+    
+}
+
+.formBoard{
+    max-width: 350px;
+    background-color: #fff;
+    border: 7px solid #ddd;
+    position: relative; 
+    top: 50px; 
+    left: 40px; 
+    padding:20px; 
+    border-radius: 5px; 
+    width: 100%; 
+}
+
+.click{
+    position: relative; 
+    bottom: -10px; 
+    width: 50%;
+
+}
+
+
+.input{
+    box-sizing: border-box;
+    padding: 10px; 
+    width: 100%; 
+    border: 1px solid #ddd; 
+    font-size: 15px; 
+    border-radius: 3px; 
+}
+
+.location-search{
+    padding: 0; 
+    margin: 0; 
+}
+
+.input:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.leaflet-top .leafleat-control{
+    margin-top: 180px; 
+}
