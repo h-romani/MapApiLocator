@@ -1,1 +1,1 @@
-# MapApiLocator
+# Map API Locator
